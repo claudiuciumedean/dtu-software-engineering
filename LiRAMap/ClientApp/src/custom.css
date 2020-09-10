@@ -1,0 +1,83 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/*Buttons*/
+button {
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    transition-duration: 0.2s;
+    background-color: #e1f8ff;
+}
+button:hover {
+    background-color: lightblue;
+    border-color: skyblue;
+}
+
+/*Tables*/
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+tr {
+    background-color: white;
+}
+tbody>tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+/*Small Light Tables*/
+table.table-light th, table.table-light td {
+    border-bottom: 1px solid lightgrey;
+}
+
+/*Invisible Tables*/
+table.table-invisible th, table.table-invisible td {
+    border: none;
+    background-color: white;
+    padding: 0px;
+}
+
+/*Gap Separators*/
+.gap-top-large {
+    margin-top: 50px;
+}
+.gap-top-medium {
+    margin-top: 25px;
+}
+.gap-top-small {
+    margin-top: 10px;
+}
+.gap-bottom-none {
+    margin-bottom: 0px;
+}
+.gap-left-small {
+    margin-left: 10px;
+}
+.gap-left-medium {
+    margin-left: 25px;
+}
+
+
+/*Floating top-right*/
+.float-top-right {
+    position: absolute;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    right: 0px;
+    z-index: 1;
+}
