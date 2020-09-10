@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LiRACore.Models.RawData.AutoPi_Json" Collapsed="true">
+    <Position X="23.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKDBAQICA2EgwsAZCgkMOQQCGCBABAAFYAAgAEAAA=</HashCode>
+      <FileName>Models\RawData\AutoPi_Json.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.PositionDisplay" Collapsed="true">
+    <Position X="27" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAgIIAAAgAQAAEIAAAAAAAAABAgCAAA=</HashCode>
+      <FileName>Models\RawData\AutoPi_Json.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Raw.TrackPosLoc" Collapsed="true">
+    <Position X="25.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\RawAutoPiSensor.cs</FileName>
+      <NewMemberFileName>Models\RawData\AutoPi_Json.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.DeviceContext" Collapsed="true">
+    <Position X="28.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAAAAAACAAAAAAAAAIAUQAAAAAAAEAQAAAAAAA=</HashCode>
+      <FileName>Models\RawData\DeviceContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.AutoPiClient" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Models\RawData\AutoPiClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Credential" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAQAAAAAACAAACAACAAAAAAABAAA=</HashCode>
+      <FileName>Models\RawData\Credential.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.CSVSampleSource" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFYAE=</HashCode>
+      <FileName>Models\RawData\CSVAutoPiSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.CSVAutoPiSource" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAQACAkEgwMAJAAkMMQQAGCBABAAFYAAgAFYAE=</HashCode>
+      <FileName>Models\RawData\CSVAutoPiSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.myDynamicClassDataLine" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\CSVAutoPiSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Measurement" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAYAAAEABAAgEgAAAACAAAAAAAIBAAAAAAAAAEEqA=</HashCode>
+      <FileName>Models\RawData\Measurement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.MeasurementType" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAQAQAAAAA=</HashCode>
+      <FileName>Models\RawData\Measurement_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Trigger" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAgAAAAAAAAAAAAAAACAAQAAIAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\Trigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.List.AutoPiSensorList" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAiiDIIIRACmJgTIJZAU0NMUSImOAAAEQEAIA4AFAkA=</HashCode>
+      <FileName>Models\RawData\AutoPiSensorList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.List.RpiTemp" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\RawData\AutoPiSensorList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.List.TrackPosLoc" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\AutoPiSensorList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.DataManager.DeviceManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYQAAAAAAAAAABAAAAABAAAAAEAAAAAAgAAAIAAAAg=</HashCode>
+      <FileName>Models\DataManager\DeviceManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LiRACore.Models.DataManager.MeasurementManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAQAAAAAgAAgAAAAAAQAAAAAAgACgIAAAAA=</HashCode>
+      <FileName>Models\DataManager\MeasurementManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LiRACore.Models.DataManager.MeasurementTypeManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYQAAAAAAAAAABAAAAAAAAAEAEAAAAAAACAAIAAAAg=</HashCode>
+      <FileName>Models\DataManager\MeasurementTypeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LiRACore.Models.DataManager.TripManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYQAAAAAAAAAABAAAAAAAAAAAEAAAAAAgBAAIAAAAg=</HashCode>
+      <FileName>Models\DataManager\TripManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Raw.RpiTemp" Collapsed="true">
+    <Position X="28.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\RawAutoPiSensor.cs</FileName>
+      <NewMemberFileName>Models\RawData\AutoPi_Json.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Raw.RawAutoPiSensor" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\RawAutoPiSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Raw.Hits" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\RawAutoPiSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Raw.Hit" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RawData\RawAutoPiSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiRACore.Models.RawData.Raw.Source" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAQACAkEgwMAJAAkMMQQAGCBABAAFYAAgAEAAA=</HashCode>
+      <FileName>Models\RawData\RawAutoPiSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="LiRACore.Models.RawData.List.Unit" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\RawData\AutoPiSensorList.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LiRACore.Models.RawData.List.T" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBJMIDJABQCQAYmIgYEQAAgEQAAA1DQAANWoAwkAAAQ=</HashCode>
+      <FileName>Models\RawData\AutoPiSensorList.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

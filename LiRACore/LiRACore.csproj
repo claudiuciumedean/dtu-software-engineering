@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AutoPiManager.cs" />
+    <Compile Remove="Migrations\20191127001016_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191127001016_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200127103259_EFCoreCodeFirstSample.Models.AutoPi.RawDataContext.cs" />
+    <Compile Remove="Migrations\20200127103259_EFCoreCodeFirstSample.Models.AutoPi.RawDataContext.Designer.cs" />
+    <Compile Remove="Migrations\20200130101835_LiRACore.Models.AutoPi.RawDataContext.cs" />
+    <Compile Remove="Migrations\20200130101835_LiRACore.Models.AutoPi.RawDataContext.Designer.cs" />
+    <Compile Remove="Migrations\20200130111409_LiRACore.Models.AutoPi.RawDataContext.cs" />
+    <Compile Remove="Migrations\20200130111409_LiRACore.Models.AutoPi.RawDataContext.Designer.cs" />
+    <Compile Remove="Migrations\20200130141646_LiRACore.Models.AutoPi.RawDataContext.cs" />
+    <Compile Remove="Migrations\20200130141646_LiRACore.Models.AutoPi.RawDataContext.Designer.cs" />
+    <Compile Remove="Migrations\20200131132256_LiRACore.Models.AutoPi.RawDataContext.cs" />
+    <Compile Remove="Migrations\20200131132256_LiRACore.Models.AutoPi.RawDataContext.Designer.cs" />
+    <Compile Remove="Migrations\20200202163520_LiRACore.Models.AutoPi.RawDataContext.cs" />
+    <Compile Remove="Migrations\20200202163520_LiRACore.Models.AutoPi.RawDataContext.Designer.cs" />
+    <Compile Remove="Migrations\20200202200839_LiRACore.Models.AutoPi.RawDataContext.cs" />
+    <Compile Remove="Migrations\20200202200839_LiRACore.Models.AutoPi.RawDataContext.Designer.cs" />
+    <Compile Remove="Migrations\20200217194917_MeasurementContext.cs" />
+    <Compile Remove="Migrations\20200217194917_MeasurementContext.Designer.cs" />
+    <Compile Remove="Migrations\20200222220920_DeviceContext.cs" />
+    <Compile Remove="Migrations\20200222220920_DeviceContext.Designer.cs" />
+    <Compile Remove="Migrations\20200222232725_InitialContext.cs" />
+    <Compile Remove="Migrations\20200222232725_InitialContext.Designer.cs" />
+    <Compile Remove="Migrations\20200223114005_InitialContext.cs" />
+    <Compile Remove="Migrations\20200223114005_InitialContext.Designer.cs" />
+    <Compile Remove="Migrations\20200223140645_InitialContext.cs" />
+    <Compile Remove="Migrations\20200223140645_InitialContext.Designer.cs" />
+    <Compile Remove="Migrations\20200223141056_InitialContext.cs" />
+    <Compile Remove="Migrations\20200223141056_InitialContext.Designer.cs" />
+    <Compile Remove="Migrations\20200223142226_InitialDB_Context.cs" />
+    <Compile Remove="Migrations\20200223142226_InitialDB_Context.Designer.cs" />
+    <Compile Remove="Migrations\20200224230051_Latest1234_Migration.cs" />
+    <Compile Remove="Migrations\20200224230051_Latest1234_Migration.Designer.cs" />
+    <Compile Remove="Migrations\DeviceContextModelSnapshotxx.cs" />
+    <Compile Remove="Migrations\RawDataContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\RawDataModelContext.cs" />
+    <Compile Remove="Migrations\RawDataModelContextModelSnapshot.cs" />
+    <Compile Remove="Models\RawData\AutoPiSensor.cs" />
+    <Compile Remove="Models\RawData\EventConfig.cs" />
+    <Compile Remove="Models\RawData\MeasurementContext.cs" />
+    <Compile Remove="Models\RawData\RawData - Copy.cs" />
+    <Compile Remove="Models\RawData\TripContext.cs" />
+    <Compile Remove="Models\RoadContext.cs" />
+    <Compile Remove="Models\Source.cs" />
+    <Compile Remove="SensorJSONManager.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="MongoDB.Driver" Version="2.9.3" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.12-beta1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.2" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EF\" />
+    <Folder Include="Models\CommonData\" />
+  </ItemGroup>
+
+</Project>
